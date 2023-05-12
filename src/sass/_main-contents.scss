@@ -1,0 +1,36 @@
+.main-contents {
+  // margin-top: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  // grid-auto-flow: row;
+
+  .profile {
+    background-color: red;
+    grid-row: 1 / -1;
+  }
+
+  .work {
+    background-color: blue;
+  }
+
+  .play {
+    background-color: green;
+  }
+
+  .study {
+    background-color: skyblue;
+  }
+
+  .exercise {
+    background-color: violet;
+  }
+
+  .social {
+    background-color: #ff7300;
+  }
+
+  .self-care {
+    background-color: chartreuse;
+  }
+}
