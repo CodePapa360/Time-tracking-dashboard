@@ -66,14 +66,19 @@
     <main class="main-contents">
       <div class="profile">
         <div class="profile__uppper">
-          <div class="profile__image-wrapper">
+          <div class="profile__uppper__image-wrapper">
             <img src="./images/image-jeremy.png" alt="Jeremy's photo" />
           </div>
           <h1>Report for <span class="profile__name">Jeremy Robson</span></h1>
         </div>
-        <button type="button">Daily</button>
-        <button type="button">Weekly</button>
-        <button type="button">Monthly</button>
+
+        <div class="buttons">
+          <button class="btn btn-daily" type="button">Daily</button>
+          <button class="btn btn-weekly btn-active" type="button">
+            Weekly
+          </button>
+          <button class="btn btn-monthly" type="button">Monthly</button>
+        </div>
       </div>
 
       <div class="report work">
@@ -83,8 +88,10 @@
             <img src="./images/icon-ellipsis.svg" alt="Ellipsis icon" />
           </div>
 
-          <p class="report__content__hours">32hrs</p>
-          <p class="report__content__prev-info">Last week - 36hrs</p>
+          <div class="report__content__info">
+            <p class="report__content__info__hours">32hrs</p>
+            <p cinfo__lass="report__content__prev-info">Last week - 36hrs</p>
+          </div>
         </div>
       </div>
 
@@ -94,9 +101,10 @@
             <h2 class="report__content__header__title">Play</h2>
             <img src="./images/icon-ellipsis.svg" alt="Ellipsis icon" />
           </div>
-
-          <p class="report__content__hours">10hrs</p>
-          <p class="report__content__prev-info">Last week - 8hrs</p>
+          <div class="report__content__info">
+            <p class="report__content__info__hours">10hrs</p>
+            <p cinfo__lass="report__content__prev-info">Last week - 8hrs</p>
+          </div>
         </div>
       </div>
 
@@ -106,9 +114,10 @@
             <h2 class="report__content__header__title">Study</h2>
             <img src="./images/icon-ellipsis.svg" alt="Ellipsis icon" />
           </div>
-
-          <p class="report__content__hours">4hrs</p>
-          <p class="report__content__prev-info">Last week - 7hrs</p>
+          <div class="report__content__info">
+            <p class="report__content__info__hours">4hrs</p>
+            <p class="report__content__info__prev-info">Last week - 7hrs</p>
+          </div>
         </div>
       </div>
 
@@ -118,9 +127,10 @@
             <h2 class="report__content__header__title">Exercise</h2>
             <img src="./images/icon-ellipsis.svg" alt="Ellipsis icon" />
           </div>
-
-          <p class="report__content__hours">4hrs</p>
-          <p class="report__content__prev-info">Last week - 5hrs</p>
+          <div class="report__content__info">
+            <p class="report__content__info__hours">4hrs</p>
+            <p class="report__content__info__prev-info">Last week - 5hrs</p>
+          </div>
         </div>
       </div>
 
@@ -130,9 +140,10 @@
             <h2 class="report__content__header__title">Social</h2>
             <img src="./images/icon-ellipsis.svg" alt="Ellipsis icon" />
           </div>
-
-          <p class="report__content__hours">5hrs</p>
-          <p class="report__content__prev-info">Last week - 10hrs</p>
+          <div class="report__content__info">
+            <p class="report__content__info__hours">5hrs</p>
+            <p class="report__content__info__prev-info">Last week - 10hrs</p>
+          </div>
         </div>
       </div>
 
@@ -142,9 +153,10 @@
             <h2 class="report__content__header__title">Self Care</h2>
             <img src="./images/icon-ellipsis.svg" alt="Ellipsis icon" />
           </div>
-
-          <p class="report__content__hours">2hrs</p>
-          <p class="report__content__prev-info">Last week - 2hrs</p>
+          <div class="report__content__info">
+            <p class="report__content__info__hours">2hrs</p>
+            <p class="report__content__info__prev-info">Last week - 2hrs</p>
+          </div>
         </div>
       </div>
     </main>
