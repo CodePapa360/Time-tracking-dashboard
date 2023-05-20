@@ -1,4 +1,5 @@
 "use strict";
+import "../sass/main.scss";
 
 (function () {
   const btnDaily = document.querySelector(".btn-daily");
@@ -16,7 +17,7 @@
 
   const fetchData = async () => {
     try {
-      const response = await fetch("./json/data.json");
+      const response = await fetch("../json/data.json");
       const data = await response.json();
       return data;
     } catch (error) {

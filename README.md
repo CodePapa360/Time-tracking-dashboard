@@ -33,11 +33,12 @@ Users should be able to:
 
 ## Built with
 
+- JavaScript
 - Semantic HTML5 markup
+- Mobile-first workflow
 - CSS custom properties
 - CSS Grid
-- JavaScript
-- Mobile-first workflow
+- CSS Flexbox
 - NPM
 - [Webpack - a module bundler](https://webpack.js.org/)
 
