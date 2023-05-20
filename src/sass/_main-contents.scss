@@ -4,14 +4,17 @@
   gap: var(--space1);
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
+  max-width: 300px;
+  width: 100%;
 
   @media screen and (min-width: $bp-medium) {
     grid-template-columns: 1fr 1fr;
+    max-width: $bp-medium;
   }
 
   @media screen and (min-width: $bp-large) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: $bp-large;
   }
 
   .profile {
@@ -58,11 +61,12 @@
 
         span {
           display: block;
-          font-size: 1.5rem;
+          font-size: 1.2rem;
           color: var(--white);
 
           @media screen and (min-width: $bp-large) {
             width: 60%;
+            font-size: 1.5rem;
           }
         }
       }
@@ -103,16 +107,26 @@
 
     background-repeat: no-repeat;
     background-position: top -0.5rem right 5%;
+    height: 100%;
+    transition: padding 0.3s ease;
+
+    &:hover {
+      padding-top: 1.5rem;
+    }
 
     &__content {
       background-color: var(--dark-blue);
       border-radius: var(--radius);
-      transform: translateY(
-        1px
-      ); // removes the visibility of the background in the corders
+      // removes the visibility of the background in the corders
+      transform: translateY(1px);
       padding: var(--space1);
       cursor: pointer;
       transition: background 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1rem;
 
       &:hover {
         background-color: var(--dark-blue-pale);
@@ -143,13 +157,20 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-wrap: wrap;
-        gap: 1rem;
+
+        @media screen and (min-width: $bp-medium) {
+          flex-direction: column;
+          align-items: flex-start;
+        }
 
         &__hours {
           color: var(--white);
-          font-size: 1.7rem;
+          font-size: 1.5rem;
           font-weight: 300;
+
+          @media screen and (min-width: $bp-medium) {
+            font-size: 2.5rem;
+          }
         }
       }
     }
@@ -157,31 +178,37 @@
 
   .work {
     background-color: var(--light-orange-red);
-    background-image: url(../images/icon-work.svg);
+    background-image: url(../src/images/icon-work.svg);
+    // background-image: url(../images/icon-work.svg);
   }
 
   .play {
     background-color: var(--soft-blue);
-    background-image: url(../images/icon-play.svg);
+    background-image: url(../src/images/icon-play.svg);
+    // background-image: url(../images/icon-play.svg);
   }
 
   .study {
     background-color: var(--light-red);
-    background-image: url(../images/icon-study.svg);
+    background-image: url(../src/images/icon-study.svg);
+    // background-image: url(../images/icon-study.svg);
   }
 
   .exercise {
     background-color: var(--lime-green);
-    background-image: url(../images/icon-exercise.svg);
+    background-image: url(../src/images/icon-exercise.svg);
+    // background-image: url(../images/icon-exercise.svg);
   }
 
   .social {
     background-color: var(--violet);
-    background-image: url(../images/icon-social.svg);
+    background-image: url(../src/images/icon-social.svg);
+    // background-image: url(../images/icon-social.svg);
   }
 
   .self-care {
     background-color: var(--soft-orange);
-    background-image: url(../images/icon-self-care.svg);
+    background-image: url(../src/images/icon-self-care.svg);
+    // background-image: url(../images/icon-self-care.svg);
   }
 }

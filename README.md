@@ -14,7 +14,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 </h2>
 
 <p align="center">
-
+This is a practice project from Frontend Mentor, aimed at enhancing frontend development skills. It is a time tracking dashboard that allows users to track and visualize their activities based on different categories. The dashboard provides daily, weekly, and monthly views, showcasing the current and previous time data. Implemented using HTML, CSS, and JavaScript, this project serves as an opportunity to learn and experiment with data visualization techniques in a web application.
 </p>
 
 <a align="center" href="https://time-tracking-dashboard-codepapa360.netlify.app/">
@@ -42,6 +42,22 @@ Users should be able to:
 - [Webpack - a module bundler](https://webpack.js.org/)
 
 ## What I learned
+
+During the development of this time tracking dashboard project, I expanded my existing skills and tackled various challenges to create a polished and functional application. Here are some key takeaways from my experience:
+
+- Responsive Design: I further refined my expertise in crafting responsive layouts that seamlessly adapt to different devices and screen sizes. This involved employing CSS media queries and employing flexible layout techniques with Flex and Grid to ensure a smooth user experience across devices.
+
+- Data Fetching and Handling: I deepened my understanding of data retrieval by utilizing JavaScript's Fetch API to retrieve data from an external JSON source. I also implemented error handling to gracefully manage any potential issues during the data fetching process.
+
+- Dynamic Content Rendering: I successfully implemented dynamic rendering of data onto the dashboard, elevating the user experience. This involved manipulating the DOM to dynamically update specific elements with fetched data in real-time.
+
+- Event Handling and User Interactions: By incorporating event listeners, I enabled seamless interaction with the dashboard. Users can effortlessly switch between daily, weekly, and monthly views, while ensuring the active button state and corresponding data retrieval are managed effectively.
+
+- Code Optimization and Organization: Through refactoring and optimizing my JavaScript code, I enhanced the project's efficiency and maintainability. I focused on eliminating code redundancy, and improving code readability.
+
+Throughout the development process, I encountered challenges such as asynchronous data handling and simultaneous updates of multiple elements.
+
+In summary, this project provided an opportunity for me to further advance my front-end development skills, apply best practices, and create an interactive and visually appealing time tracking dashboard.
 
 ## Installation
 
