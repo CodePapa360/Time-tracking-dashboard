@@ -14,7 +14,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 </h2>
 
 <p align="center">
-This is a practice project from Frontend Mentor, aimed at enhancing frontend development skills. It is a time tracking dashboard that allows users to track and visualize their activities based on different categories. The dashboard provides daily, weekly, and monthly views, showcasing the current and previous time data. Implemented using HTML, CSS, and JavaScript, this project serves as an opportunity to learn and experiment with data visualization techniques in a web application.
+A practice project from Frontend Mentor, showcasing a dynamic time tracking dashboard. Implementing HTML, SASS, and JavaScript, it offers daily, weekly, and monthly views with current and previous time data.
 </p>
 
 <a align="center" href="https://time-tracking-dashboard-codepapa360.netlify.app/">
@@ -30,12 +30,14 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Switch between viewing Daily, Weekly, and Monthly stats
+- **Bonus:** Utilized JSON data to dynamically populate and display statistics
 
 ## Built with
 
 - JavaScript
 - Semantic HTML5 markup
 - Mobile-first workflow
+- [SASS - a CSS pre-processor](https://sass-lang.com/)
 - CSS custom properties
 - CSS Grid
 - CSS Flexbox
