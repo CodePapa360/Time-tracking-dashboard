@@ -9,7 +9,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 [🚀Live Site](https://time-tracking-dashboard-codepapa360.netlify.app/)
 |
-[💡Frontend Mentor]()
+[💡Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-time-tracking-dashboard-6LzWWJGKGM)
 
 </h2>
 
@@ -30,7 +30,7 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Switch between viewing Daily, Weekly, and Monthly stats
-- **Bonus:** Utilized JSON data to dynamically populate and display statistics
+- **Bonus:** Utilized JSON data to dynamically fetch and present data
 
 ## Built with
 
